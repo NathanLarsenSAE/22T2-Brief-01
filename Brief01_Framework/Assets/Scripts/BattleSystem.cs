@@ -16,13 +16,13 @@ public class BattleSystem : MonoBehaviour
         // luck should be random between 0-4
         int playerOneLuck = 0;
         // ryhtm should be random between 1-6
-        int playerOneRyhtm = 0;
+        int playerOneRythm = 0;
         // style should be random between 1-10
         int playerTwoStyle = 0;
         // luck should be random between 0-4
         int playerTwoLuck = 0;
         // ryhtm should be random between 1-6
-        int playerTwoRyhtm = 0;
+        int playerTwoRythm = 0;
 
         // let's set our player power levels, using an algorithm, the simpliest would be luck + style + rhythm
         // this algorthim should be the same for each character to keep it fair.
