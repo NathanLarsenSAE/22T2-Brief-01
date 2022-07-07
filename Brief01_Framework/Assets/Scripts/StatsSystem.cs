@@ -9,7 +9,7 @@ using UnityEngine;
 public class StatsSystem : MonoBehaviour
 {
     // Start is called before the first frame update
-    /// Our physical stats that determine our dancing stats.
+    // Our physical stats that determine our dancing stats.
     public int agility;
     public int intelligence;
     public int strength;
@@ -32,49 +32,61 @@ public class StatsSystem : MonoBehaviour
         Debug.Log(agility = 0);
         Debug.Log(intelligence = 0);
 
-
         // let's create some float temporary variables to hold our multiplier values.
         float rhythmMulti = 0.5f;
-    
-        //public float style;
-        //public float luck;
+        float styleMulti = 1;
+        float luckMulti = 2;
 
-        //// create an agility multiplier should be set to 0.5
-        //rhythm = agility * rhythmMulti;
-        //// create a strength multiplier should be set to 1
-        //public float strength * public float style = 1.0;
-        //// create an intelligence multiplier should be set to 2.
-        //public float intelligence * public float luck = 2.0;
-        //// Debug out our current multiplier values.
-        //Debug.Log(public float agility * public float rhythm = 0.5);
-        //Debug.Log(public float strength = 1.0);
-        //Debug.Log(intelligence = 2.0);
-        //// now that we have some stats and our multiplier values let's calculate our style, luck and rhythm based on these values.
-        //public float style;
-        //public float luck;
-        //public float rhythm;
-        //// style should be based off our strength and be converted at a rate of 1 : 1
-        //public float style + public
-        //// luck should be based off our intelligence and be converted at a rate of 1 : 1.5f
-        //// rhythm should be based off our agility and be converted at a rate of 1 : 0.5.
-        //// Debug out our current dancing stat values (style, luck, rhythm)
-        //Debug.Log(public float style = 2.0;);
-        //Debug.Log(public float luck = 2.0; 3.0);
-        //Debug.Log(public float rhythm = 1.0;);
+        // create an agility multiplier should be set to 0.5
+        rhythm = agility * rhythmMulti = 0.5f;
 
-        //// now let's imagine that our level has increased; and we've been granted 10 new stat points.
-        //// let's distribute those stats amoungst our strength and agility and intelligence.
-        //int additionalPoints = 10;
+        // create a strength multiplier should be set to 1
+        style = strength * styleMulti = 1;
 
-        //// Debug out our new physical stat values
-        //Debug.Log(int agility = 1.5;);
-        //Debug.Log(int strength = 2;);
-        //Debug.Log(int intelligence = 3;);
+        // create an intelligence multiplier should be set to 2
+        luck = intelligence * luckMulti = 2;
+
+        // Debug out our current multiplier values
+        Debug.Log(rhythm = agility * rhythmMulti = 0.5f);
+        Debug.Log(style = strength * styleMulti = 1);
+        Debug.Log(luck = intelligence * luckMulti = 2);
+
+        // now that we have some stats and our multiplier values let's calculate our style, luck and rhythm based on these values.
+        // style should be based off our strength and be converted at a rate of 1 : 1
+        style = strength * styleMulti = 1;
+
+        // luck should be based off our intelligence and be converted at a rate of 1 : 1.5f
+        luck = intelligence * luckMulti = 2 : 3;
+
+        // rhythm should be based off our agility and be converted at a rate of 1 : 0.5.
+        rhythm = agility * rhythmMulti = 0.5f : 0.7f;
+
+        // Debug out our current dancing stat values (style, luck, rhythm)
+        Debug.Log(rhythm = agility * rhythmMulti = 0.5f: 0.7f);
+        Debug.Log(style = strength * styleMulti = 1);
+        Debug.Log(luck  = intelligence * luckMulti = 2 : 3);
+        
+        // now let's imagine that our level has increased; and we've been granted 10 new stat points.
+        // let's distribute those stats amoungst our strength and agility and intelligence.
+        int additionalPoints = 10;
+        agility  + additionalPoints = 1.5f;
+        strength + additionalPoints = 2;
+        intelligence + additionalPoints = 4;
+
+        //Debug out our new physical stat values
+        Debug.Log(agility = 1.5f);
+        Debug.Log(strength = 2);
+        Debug.Log(intelligence = 4);
 
         //// let's recalculate our style, luck and rhythm as our initial stats have changed.
+        int additionalPoints = 10;
+        rhythm + additionalPoints = 1.5f : 1.7f;
+        style + additionalPoints = 2;
+        luck + additionalPoints = 3 : 4;
+
         //// Debug out our new dancing stat values
-        //Debug.Log(style = 3;);
-        //Debug.Log(luck = 3; 4;);
-        //Debug.Log(rhythm = 2;);
+        Debug.Log(rhythm = 1.5f : 1.7f);
+        Debug.Log(style = 2);
+        Debug.Log(luck = 3 : 4);
     }
 }
