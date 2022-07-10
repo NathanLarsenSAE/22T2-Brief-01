@@ -275,6 +275,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8aed0f8c537424b8dfc056f95794fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerOneStyle: 0
+  playerTwoStyle: 0
+  playerOneLuck: 0
+  playerTwoLuck: 0
+  playerOneRhythm: 0
+  playerTwoRhythm: 0
+  playerOneChanceToWin: 0
+  playerTwoChanceToWin: 0
+  playerOnePowerLevel: 0
+  playerTwoPowerLevel: 0
 --- !u!4 &778655503
 Transform:
   m_ObjectHideFlags: 0
