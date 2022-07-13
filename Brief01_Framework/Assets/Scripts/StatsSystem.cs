@@ -10,18 +10,18 @@ public class StatsSystem : MonoBehaviour
 //Update is called one per frame
 {
     // Our physical stats that determine our dancing stats.
-    private float agility;
-    private float intelligence;
-    private float strength;
-    private float additionalPoints;
+    public float agility;
+    public float intelligence;
+    public float strength;
+    public float additionalPoints;
 
     // Our variables used to determine our fighting power.
-    private float rhythm;
-    private float luck;
-    private float style;
-    private float styleMulti;
-    private float luckMulti;
-    private float rhythmMulti;
+    public float rhythm;
+    public float luck;
+    public float style;
+    public float styleMulti;
+    public float luckMulti;
+    public float rhythmMulti;
 
     private void Start()
     {
